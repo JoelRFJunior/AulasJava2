@@ -39,11 +39,11 @@ public class Preguica extends Animal {
 			descanso="esta acordada";
 		}
 		
-		if("Preguiça-comum"==preguica) {
+		if(preguica.equals("Preguiça-comum")) {
 			extincao ="menor preocupação";
-		}else if("Preguiça-de-coleira"==preguica) {
+		}else if(preguica.equals("Preguiça-de-coleira")) {
 			extincao = "situação vulnerável";
-		}else if("Preguiça-anã-de-três-dedos"==preguica) {
+		}else if(preguica.equals("Preguiça-anã-de-três-dedos")) {
 			extincao = "criticamente em perigo";
 		}else {
 			extincao= "espécie não especificada";
